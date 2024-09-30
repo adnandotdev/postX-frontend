@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import React from 'react'
 import SignupForm from './_auth/forms/SignupForm'
 import SigninForm from './_auth/forms/SigninForm'
 import { AllUsers, CreatePost, EditPost, Explore, Home, PostDetails, Profile, Saved, UpdateProfile } from './root/pages'

@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react'
-
 export default function FileUploader(){
     return (
         <div  className='flex flex-center flex-col rounded-xl cursor-pointer bg-zinc-900 items-center'>
