@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/postx-frontend/', // Ensure this matches your repository name
+  base: '/postX-frontend/', // Ensure this matches your repository name
 });
