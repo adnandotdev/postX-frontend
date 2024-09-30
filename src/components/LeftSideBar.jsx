@@ -101,11 +101,12 @@ const LeftSideBar = () => {
             
         </ul>
       </div>
-      <button
+      <Link
+      to='/signin'
         className='flex gap-4 items-center p-3 text-white hover:bg-gray-600 rounded-lg'>
           <img src="/icons/logout.svg" alt="Logout" />
           <p>Logout</p>
-      </button>
+      </Link>
     </nav>
   )
 }

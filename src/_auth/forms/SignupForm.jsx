@@ -12,7 +12,7 @@ export default function SignupForm() {
   return (
     <div className="w-full flex flex-col items-center justify-center h-screen">
       <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
-        <form  className="flex flex-col">
+        <form action="/" className="flex flex-col">
           <div className="flex items-center justify-center">
           <img 
                 src="/images/logoimg.svg"
